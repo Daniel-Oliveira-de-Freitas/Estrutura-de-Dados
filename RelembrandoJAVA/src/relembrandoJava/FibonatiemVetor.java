@@ -6,14 +6,14 @@ public class FibonatiemVetor {
 
 	public static void main(String[] args) {
 		 Scanner tec = new Scanner(System.in);
-	        int v[]= new int[60];;
+	        long v[]= new long[61];;
 	        int n;
 	       v[0] = 0; 
 	        v[1] = 1; 
 	        
 	        System.out.println("n");
 	        n = tec.nextInt();	        
-	        for (int i = 2; i < 60; i++) {
+	        for (int i = 2; i < 61; i++) {
 	             v[i] = v[i-2]+v[i-1];            
 	        }	        
 	        for (int i = 0; i < n; i++) {
